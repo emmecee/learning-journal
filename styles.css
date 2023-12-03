@@ -1,0 +1,410 @@
+/****************HOME PAGE CSS*******************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    background: #FAFAFA;
+    max-width: 100vw;
+}
+
+/******Navbar*******/
+
+.navbar {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    max-width: 100vw;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 1.44763rem;
+    height: 1.44763rem;
+    flex-shrink: 0;
+    margin-right: 0.3em;
+}
+
+.navbar p {
+    color: #0E0E0E;
+    font-size: 0.847rem;
+    font-weight: 700;
+    line-height: 108.2%;
+    /* 0.9165rem */
+    letter-spacing: -0.02544rem;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #090909;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 0.5em;
+}
+
+/******Hero*******/
+
+.hero {
+    color: #fff;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.31) 0%, rgba(0, 0, 0, 0.31) 100%), url('images/blog-image-hero.png'), lightgray 0px -255.741px / 100% 188.396% no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text {
+    padding: 3.5em 1.5em;
+}
+
+p {
+    color: #fff;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-date {
+    font-size: 0.75rem;
+    margin: 1em 0;
+}
+
+.heading,
+h1 {
+    color: #FFF;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108.2%;
+    /* 2.705rem */
+    letter-spacing: -0.075rem;
+    text-decoration: none;
+}
+
+.heading {
+    margin-bottom: 0.5em;
+    display: block;
+}
+
+.heading:hover,
+.heading:focus {
+    color: #FCD34D;
+}
+
+
+/******Photo Grid*******/
+
+.grid-container {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.blog-post {
+    padding: 1em 0.8em;
+}
+
+.img {
+    width: 100%;
+    border-radius: 0.1875rem;
+    object-fit: cover;
+}
+
+.blog-date {
+    font-size: 0.88581rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0.5em 0;
+}
+
+h3 {
+    color: #141414;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108.2%;
+    /* 1.623rem */
+    padding: 0.3em 0;
+}
+
+.blog-text {
+    color: #505050;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    /* 1.25rem */
+}
+
+.hidden {
+    display: none;
+}
+
+.view-more {
+    display: block;
+    color: #000;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 3em;
+}
+
+.view-more:active,
+.view-more:hover,
+nav a:hover,
+nav a:focus {
+    color: #FCD34D;
+    text-decoration: underline;
+}
+
+
+/******Footer*******/
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #202020;
+    padding: 2em;
+}
+
+footer p {
+    color: #ECECEC;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 108.2%;
+    /* 0.8115rem */
+    letter-spacing: -0.0225rem;
+}
+
+footer span {
+    color: #D7D7D7;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 125%;
+    /* 0.9375rem */
+}
+
+
+
+/*********************POST PAGE CSS************************/
+
+h1 {
+    color: #151515;
+}
+
+.article {
+    padding: 0 1em;
+}
+
+.post-img {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    margin-top: 1em;
+}
+
+.info,
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5em;
+}
+
+h4 {
+    color: #151515;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1em 0;
+}
+
+.article-sm {
+    color: #151515;
+    margin: 1em 0;
+}
+
+.info-text {
+    color: #151515;
+}
+
+.recent-tag {
+    color: #000;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 2em;
+}
+
+.sm {
+    color: #000;
+}
+
+
+/*********************About Me CSS************************/
+
+.about-icon {
+    width: 11.375rem;
+    height: 11.375rem;
+    flex-shrink: 0;
+    margin: 1em 0;
+}
+
+.about-sm {
+    color: #151515;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 1em 0;
+    margin-bottom: 2em;
+}
+
+
+@media screen and (min-width:475px) {
+    .logo {
+        width: 2.14038rem;
+        height: 2.14038rem;
+        margin-right: 0.5em;
+    }
+
+    .navbar p {
+        font-size: 1.25238rem;
+        font-weight: 700;
+        line-height: 108.2%;
+        /* 1.35506rem */
+        letter-spacing: -0.03756rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    .hero {
+        position: relative;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: 30.5rem;
+        flex-shrink: 0;
+        flex-shrink: 0;
+    }
+
+    .hero-text {
+        max-width: 50%;
+        position: absolute;
+        top: 16em;
+        padding: 0 2.5em;
+    }
+
+    .hero-date {
+        font-size: 1rem;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+        line-height: 108.2%;
+        /* 2.705rem */
+        letter-spacing: -0.075rem;
+    }
+
+    .grid-container {
+        padding: 2em;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .blog-post {
+        padding: 0.5em 0.8em;
+    }
+
+
+    .img {
+        height: 50%;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article-text {
+        margin: auto;
+        max-width: 80%;
+    }
+
+    .post-img {
+        width: 90%;
+        align-self: center;
+        margin-bottom: 1.5em;
+    }
+
+    .info {
+        max-width: 65%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    h4 {
+        font-size: 1.3em;
+    }
+
+    .info-text {
+        font-size: 1.14281rem;
+    }
+
+    .recent-tag {
+        font-size: 1.5rem;
+        line-height: 108.2%;
+        /* 1.623rem */
+    }
+
+    .about {
+        flex-direction: row;
+        align-items: center;
+        max-width: 80%;
+        margin: auto;
+        margin-bottom: 1em;
+    }
+
+    .about-img {
+        margin-right: 2em;
+    }
+
+    .about-info {
+        margin-top: 1.5em;
+    }
+
+    .about-heading {
+        font-size: 2.25rem;
+    }
+}
